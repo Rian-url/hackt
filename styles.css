@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@350;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.image img {
+    width: 60vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    box-shadow: 11px 15px 13px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 11px 15px 13px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 15px 13px -4px rgba(0, 0, 0, 0.75);
+}
+
+.content-etec .title{
+    text-align: center;
+    color: #3711BF;
+    font-family: 'Mooli', sans-serif;
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+.content-etec p {
+    width: 70vw;
+    margin-left: 5rem;
+    font-size: 17px;
+}
+
+.content-etec h1 {
+    font-size: 35px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #435AD9;
+    font-family: 'Mooli', sans-serif;
+}
+
+.content-etec h1:hover {
+    color: #3711BF;
+    cursor: pointer;
+}
+
+.content-etec hr {
+    width: 60vw;
+    margin-top: -2rem;
+    border: #95a1e9 solid 2px;
+    margin-bottom: 4rem;
+}
+
+.localizacao h1 {
+    font-size: 35px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #435AD9;
+    font-family: 'Mooli', sans-serif;
+}
+
+.localizacao p {
+    width: 25vw;
+    margin-left: 5rem;
+    font-size: 17px;
+}
+
+.content-cursos h1 {
+    font-size: 35px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #435AD9;
+    font-family: 'Mooli', sans-serif;
+}
+
+.cursos{
+    width: 70vw;
+}
+
+ .cursos .content-cursos{ 
+        width: 70vw;
+    }
+
+.content-cursos li {
+    margin-left: 2rem;
+    font-size: 17px;
+    margin-left: 5.8rem;
+}
+
+.content-cursos li:hover{
+    color: #3711BF;
+}
+
+.content-cursos a {
+    text-decoration: none;
+    color: black;
+}
+
+.contato h1 {
+    font-size: 35px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #435AD9;
+    font-family: 'Mooli', sans-serif;
+}
+
+.contato h2 {
+    font-size: 24px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #6578e6;
+    font-family: 'Mooli', sans-serif;
+}
+
+.contato li {
+    margin-left: 2rem;
+    font-size: 17px;
+    margin-left: 5.8rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-vestibulinho .title {
+    font-size: 35px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+}
+
+.content-vestibulinho h1 {
+    font-size: 35px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-family: 'Mooli', sans-serif;
+}
+
+.vestibulinho .content-vestibulinho p {
+    width: 70vw;
+    margin-left: 3rem;
+    font-size: 17px;
+    color: #fff;
+}
+
+.content-vestibulinho .list h1{
+    width: 33vw;
+    border-bottom: #3711BF solid 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: dashed;
+    padding-bottom: 0.5rem;
+}
+
+.content-vestibulinho li {
+    margin-left: 2rem;
+    font-size: 17px;
+    margin-left: 5.8rem;
+    color: #fff;
+}
+
+.content-vestibulinho .list{
+    margin-bottom: 3rem;
+}
+
+.fundo {
+    background-color: #3B8FD9;
+}
+
+.content-game .title{
+    text-align: center;
+    color: #3711BF;
+    font-family: 'Mooli', sans-serif;
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+.content-game p{
+    width: 70vw;
+    margin-left: 3rem;
+    font-size: 18px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.content-game{
+    margin-bottom: 5rem;
+}
+
+.content-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+}
+
+.content-videos .entrevista{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    
+}
+
+.entrevista h1{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.content-videos .title {
+    font-size: 35px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+}
+
+.content-videos p {
+    margin-top: 2rem;
+    width: 50vw;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.content-tour .title{
+    text-align: center;
+    color: #3711BF;
+    font-family: 'Mooli', sans-serif;
+    font-size: 50px;
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+}
+
+.tour{
+    padding-bottom: 5rem;
+}
+
+
+
+svg{
+    background-color: #fff;
+}
